@@ -1,0 +1,6 @@
+autokeras==1.0.20
+matplotlib==3.4.3
+numpy==1.22.0
+tensorflow==2.12.0
+opencv-python==4.7.0.72
+scikit-learn==1.2.2

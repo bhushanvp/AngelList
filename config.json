@@ -1,0 +1,12 @@
+{
+  "image_dir": "./data",
+  "max_trials": 2,
+  "epochs": 10,
+  "validation_split": 0.2,
+  "model_path": "best_model.h5",
+  "image_path": "class-2/car_0000.jpg",
+  "image_resize_width": 64,
+  "image_resize_height": 64
+}
+
+  

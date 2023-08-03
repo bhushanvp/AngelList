@@ -1,0 +1,10 @@
+apiVersion: "serving.kserve.io/v1beta1"
+kind: "InferenceService"
+metadata:
+  name: "my-model"  # Replace "my-model" with a unique name for your model deployment
+spec:
+  predictor:
+    model:
+      modelFormat:
+        name: pytorch
+      storageUri: "https://drive.google.com/file/d/1sV7LwXLMhxqeka8igWz_eMuwmiBfVH4s/view?usp=drive_link"
